@@ -8,7 +8,7 @@ import MovieList from './Movies/MovieList';
 const App = () => {
   const [savedList, setSavedList] = useState([]);
   const [movieList, setMovieList] = useState([]);
-  console.log(movieList)
+  // console.log(movieList)
 
   useEffect(() => {
     const getMovies = () => {
